@@ -29,13 +29,27 @@ To run the project on **development mode**:
 
     npm run dev
 
+## Deploy
+
+1. Setup a Firebase function:
+
+The best way to deploy this bot would be to set up a schedule Firebase function like the one below:
+
+        exports.sneakerbot = functions.pubsub.schedule('every 1 minutes').timeZone('Europe/Paris').onRun(async(context) => {
+            await axios.post('https://example.com', {}, {}).then((res) => {
+                console.log(res.data);
+            });
+        });
+        
+For more about deployement by either visit the [Firebase Functions docs](https://firebase.google.com/docs/functions) or [contact me](##Contact).
+
 ## NPM Dependencies
 
-- ***[Dotenv](https://www.npmjs.com/package/dotenv)
-- ***[Puppeteer-cluster](https://www.npmjs.com/package/puppeteer-cluster)
-- ***[Puppeteer-extra](https://www.npmjs.com/package/puppeteer-extra)
-- ***[Puppeteer-extra-plugin-stealth](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth)
-- ***[Puppeteer-extra-plugin-recaptcha](https://www.npmjs.com/package/puppeteer-extra-plugin-recaptcha)
+- ***[Dotenv](https://www.npmjs.com/package/dotenv)***
+- ***[Puppeteer-cluster](https://www.npmjs.com/package/puppeteer-cluster)***
+- ***[Puppeteer-extra](https://www.npmjs.com/package/puppeteer-extra)***
+- ***[Puppeteer-extra-plugin-stealth](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth)***
+- ***[Puppeteer-extra-plugin-recaptcha](https://www.npmjs.com/package/puppeteer-extra-plugin-recaptcha)***
 
 ### (Dev Dependencies)
 
@@ -43,5 +57,7 @@ To run the project on **development mode**:
 
 ## Contact
 
-
+- **Github: [Science-math-guy](https://github.com/science-math-guy)**
+- **Email:  [ad@one-design.fr](mailto:ad@one-design.fr)**
+- **Instagram: [adrydmt](https://instagram/adrydmt)**
  
