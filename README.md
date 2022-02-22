@@ -31,15 +31,15 @@ To run the project on **development mode**:
 
 ## NPM Dependencies
 
-- [Dotenv](https://www.npmjs.com/package/dotenv)
-- [Puppeteer-cluster](https://www.npmjs.com/package/puppeteer-cluster)
-- [Puppeteer-extra](https://www.npmjs.com/package/puppeteer-extra)
-- [Puppeteer-extra-plugin-stealth](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth)
-- [Puppeteer-extra-plugin-recaptcha](https://www.npmjs.com/package/puppeteer-extra-plugin-recaptcha)
+- ***[Dotenv](https://www.npmjs.com/package/dotenv)
+- ***[Puppeteer-cluster](https://www.npmjs.com/package/puppeteer-cluster)
+- ***[Puppeteer-extra](https://www.npmjs.com/package/puppeteer-extra)
+- ***[Puppeteer-extra-plugin-stealth](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth)
+- ***[Puppeteer-extra-plugin-recaptcha](https://www.npmjs.com/package/puppeteer-extra-plugin-recaptcha)
 
 ### (Dev Dependencies)
 
-- [Nodemon](https://www.npmjs.com/package/nodemon)
+- ***[Nodemon](https://www.npmjs.com/package/nodemon)***
 
 ## Contact
 
