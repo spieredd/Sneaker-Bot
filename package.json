@@ -1,0 +1,28 @@
+{
+  "name": "sneaker-bot",
+  "version": "1.0.0",
+  "description": "![](https://forthebadge.com/images/badges/for-robots.svg) ![](https://forthebadge.com/images/badges/powered-by-netflix.svg) --- ## About",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/science-math-guy/Sneaker-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/science-math-guy/Sneaker-Bot/issues"
+  },
+  "homepage": "https://github.com/science-math-guy/Sneaker-Bot#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
