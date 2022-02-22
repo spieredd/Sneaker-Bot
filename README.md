@@ -59,5 +59,5 @@ For more about deployement by either visit the [Firebase Functions docs](https:/
 
 - **Github: [Science-math-guy](https://github.com/science-math-guy)**
 - **Email:  [ad@one-design.fr](mailto:ad@one-design.fr)**
-- **Instagram: [adrydmt](https://instagram/adrydmt)**
+- **Instagram: [adrydmt](https://instagram.com/adrydmt)**
  
