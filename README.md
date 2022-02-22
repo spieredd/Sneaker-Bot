@@ -41,7 +41,7 @@ The best way to deploy this bot would be to set up a schedule Firebase function 
             });
         });
         
-For more about deployement by either visit the [Firebase Functions docs](https://firebase.google.com/docs/functions) or [contact me](##Contact).
+For more about deployement by either visit the [Firebase Functions docs](https://firebase.google.com/docs/functions) or [contact me](#Contact).
 
 ## NPM Dependencies
 
